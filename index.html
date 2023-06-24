@@ -1,152 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <title>Document</title>
+  <title>ZONED</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
-
 <body>
-    
-    <section class="bgimg">
-        <div class="header">
-            
 
-            <img class="hamburger" src="images/hamberger.png" alt="">
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logo.png" style="width: 10px;" alt="Global">
+    <p>Zoned</p>
+  </a>
+  <p class="device-notification--message">Zoned has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+</div>
 
-            <div class="header-links" style="padding-right: 100px; margin-left: 5%;">
-                <ul class="ulitems">
-                    <li><a href="https://zoned.substack.com/about">US</a></li>
-                    <li><a href="">Community</a></li>
-                    <li><a href="">Newsletter</a></li>
-                    
-
-                    <i class="fas fa-xmark close"></i>
-
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/logo.png" style="width: 60px;" alt="Global">
+            <p>Zoned</p>
+          </a>
+          <button class="header--cta cta">Hire Us</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Web-Dev</span></li>
+            <li><span>About</span></li>
+            <li><span>Growth</span></li>
+            <li><span>Contact</span></li>
+            <li><span>Hire us</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>"WE<br>LIVE<br>ONCE"</h1>
+                <button class="cta">Hire Us
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="assets/img/introduction-visual.png" alt="Welcome">
+              </div>
+              <div class="intro--options">
+                <a href="#Growth">
+                  <h3>Exponential Growth</h3>
+                  <p>In Zoned we belive in exponential growth and contant improvement</p>
+                </a>
+                <a href="#Growth">
+                  <h3>Development</h3>
+                  <p>Our guides offer great isights into personal development and phylosophy</p>
+                </a>
+                <a href="#Web-Dev">
+                  <h3>Web development</h3>
+                  <p>We will help your business grow exponentially</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section" id="web-dev">
+            <div class="work" id="web-dev">
+              <h2>Built in</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/work-victory.png" alt="Custom">
+                      </div>
+                      <p class="slider--item-title">Branding</p>
+                      <p class="slider--item-description">We know how much branding can affect your success, that is why we include branding on all pages</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/work-metiew-smith.png" alt="Metiew and Smith">
+                      </div>
+                      <p class="slider--item-title">Tailor made</p>
+                      <p class="slider--item-description">We know that every business is great in it's own way,<b>"why try to fit in if you were made to stand out"</b> </p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/work-alex-nowak.png" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">24/7 hosting</p>
+                      <p class="slider--item-description">We include hosting and domain costs on all pages<br><i style="font-size: xx-small; line-height: 3px;">*Some domain names are already taken or are priced above our budget*</i></p>
+                    </a>
+                  </li>
                 </ul>
-            </div>
-        </div>
-        <img class="mask-img" src="images/banner no back.png" alt="">
-        
-    </section>
-
-    <!-- ---------------------------------------living-------- -->
-    <section class="unstopable">
-        <div class="unstop-content">
-            <h1 class="h1-unstopable">We only live once</h1>
-            <div class="btn-unstopable">
-                <button class="btn3">Join In</button>
-            </div>
-
-        </div>
-    </section>
-    <!-- --------------------------------------network-section------------------------ -->
-    <section class="network-section" style="background-color: #212020;">
-        <div class="network-container">
-            <div class="left">
-                <h1 class="heading-network" style="color: #ffffff;"> A network of like minded individuals</h1>
-                <img class="amico-res" src="images/amico-res.png" alt="">
-                <p class="para1-network" style="color: #c1c1c1;">We give you the opportunity to connect with people
-                    in niches such as: business, art, software development, mindfulness, and more </p>
-                <a class="join-btn2" href="https://discord.com/invite/KmMVN8HBBD">Join In</a>
-            </div>
-
-            <div class="right">
-                <img src="images/amico.png" alt="" class="img-network">
-            </div>
-        </div>
-    </section>
-
-        <!-- --------------------------------------newsletter-section------------------------ -->
-        <section class="network-section" style="background-color: #ffffff;">
-            <div class="network-container">
-                <div class="right">
-                    <img src="images/improvement.png" alt="" class="img-network" style="width: 170%; margin-top: -70px;" >
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
                 </div>
-                                
-                <div class="left">
-                    <h1 class="heading-network">Get 1% better every day</h1>
-                    <img class="amico-res" src="images/improvement.png" style="width: 80%;" alt="">
-                    <p class="para1-network" style="color: #1c1c1c;">A 1% daily improvement results in 37 times better at the end of the year. 
-                        Join our newsletter to get 1% better every day  </p>
-    
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
                 </div>
-    
-
+              </div>
             </div>
-        </section>
-    <!-- ------------------------------------------zoned-section-------------------------------------- -->
-    <section>
-        <center><iframe src="https://zoned.substack.com/embed" width="100%" height="320" style="border:none ; background:white;" frameborder="0" scrolling="no"></iframe></center>
-        
-    </section>
-    <!-- ----------------------------------------about-us---------------- -->
-
-    <section class="about-us">
-        <h1 class="about-heading">About Us</h1>
-        <p class="about-para">This is what We do</p>
-        <div class="about-content">
-            <div class="about-left">
-                <img src="images/abouthero.png" alt="">
-
-            </div>
-            <div class="about-right">
-                <p class="about-right-para1">A place where innovation meets exponential growth. Choose to get 1%
-                     better every day and join our team with our quick email lessons covering: philosophy, psychology, 
-                     business, mindfulness, physical and mental health, habit development, addictions, and much more.
-                </p>
-
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <h2>We<br>believe in<br>Exponential<br>growth</h2>
+                <a href="#0"><b style="width: 300px;">Our phylosophy is all about constant improvent and exponential growth.<br> We will help you and your business get 1% better every day</b>
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a>
+                <img src="assets/img/about-visual.png" alt="About Us">
+              </div>
+              <div class="about--options">
+                <a href="#web-dev">
+                  <h3>Improve your business</h3>
+                </a>
+                <a href="#0">
+                  <h3>Improve yourself</h3>
+                </a>
+                <a href="#0">
+                  <h3>Learn more</h3>
+                </a>
                 
-
-                <p class="about-right-para2">
-
-                There is a group of men out there that will never get to reach their full potential, this is not because they are incapable of success but instead because their minds are trapped in a system made to crush them. We help enlighten those who want to be successful but have repressed their potential because of their environment.
-
-               
-                </p>
-
-                <a class="join-btn" href="https://zoned.substack.com/about">Know more</a>
-
-
+              </div>
             </div>
+          </li>
+          <li class="l-section section"id="Growth">
+            <div class="about">
+              <div class="about--banner">
+                <h2>Get<br>Daily<br>Bite-sized<br>lessons</h2>
+                
+                <img src="assets/img/growth-visual.png" alt="About Us">
 
-        </div>
+                <iframe src="https://zoned.substack.com/embed" width="100%" height="auto" style="border: none; background:rgb(0, 0, 0); border-radius: 15px; color: black;" frameborder="0" scrolling="no"></iframe>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section" >
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <p>We welcome anyone arround the globe </p>
+                    <a href="mailto:info@zoned.life">info@zoned.life</a>
+                    
+                  </div>
+                  <ul class="modal--options">
+                    <li><a href="#0">Substack</a></li>
+                    <li><a href="#0">Discord</a></li>
+                    <li><a href="mailto:info@zoned.life">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="hire">
+              <h2>We work you win</h2>
+              <!-- checkout formspree.io for easy form setup -->
+              <form class="work-request" 
+              action="https://formspree.io/f/mnqkanye"
+              method="POST">
+                <div class="work-request--options">
+                  <span class="options-a">
+                    <input id="opt-1" type="checkbox" name="Coaching" value="Coaching">
+                    <label for="opt-1">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Coaching
+                    </label>
+                    <input id="opt-2" type="checkbox" name="web-dev" value="Web-dev">
+                    <label for="opt-2">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Webdesign
+                    </label>
+                    <input id="opt-6" type="checkbox" name="marketing" value="marketing">
+                    <label for="opt-6">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Marketing
+                    </label>
+                  </span>
+                </div>
+                <div class="work-request--information">
+                  <div class="information-name">
+                    <input id="name" type="text" name="name" spellcheck="false">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="information-email">
+                    <input id="email" type="email" name="email"spellcheck="false">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <input type="submit" value="Send Request">
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Web-Dev</li>
+    <li>About</li>
+    <li>Growth</li>
+    <li>Contact</li>
+    <li>Hire us</li>
+  </ul>
+</div>
 
-
-    </section>
-
-    <!-- ---------------------------------------unstoppable-------- -->
-    <section class="unstopable">
-        <img class="backimg" src="images/Maskunstop.png" alt="">
-        <div class="unstop-content">
-            <h1 class="h1-unstopable">"Every day you don't get better you get worse"</h1>
-            
-
-        </div>
-    </section>
-
-    <!-- ----------------------------------------------footer----------------- -->
-    <section class="footer">
-        <div class="footer-content">
-
-            <p class="p4">Change your future</p>
-            <div class="vertical-line"></div>
-            <p class="p4">by changing your Habits</p>
-
-
-        </div>
-
-
-    </section>
-
-
-    <script src="./app.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
 </body>
-
 </html>
