@@ -1432,6 +1432,7 @@ body {
     transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     outline: 30px solid #0f33ff;
 }
+
 .outer-nav {
     position: absolute;
     top: 50%;
