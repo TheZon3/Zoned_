@@ -9,6 +9,8 @@
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
+  <meta name="monetization" content="$wallet.example.com/something">
+
 </head>
 <body>
 
@@ -20,7 +22,7 @@
   </a>
   <p class="device-notification--message">Zoned has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
 </div>
-
+<meta name="monetization" content="$wallet.example.com/something">
 <div class="perspective effect-rotate-left">
   <div class="container"><div class="outer-nav--return"></div>
     <div id="viewport" class="l-viewport">
@@ -30,7 +32,7 @@
             <img src="assets/img/logo.png" style="width: 60px;" alt="Global">
             <p>Zoned</p>
           </a>
-          <button class="header--cta cta">Hire Us</button>
+          <a href="#hire" class="header--cta cta">Hire Us</a>
           <div class="header--nav-toggle">
             <span></span>
           </div>
@@ -40,9 +42,9 @@
             <li class="is-active"><span>Home</span></li>
             <li><span>Web-Dev</span></li>
             <li><span>About</span></li>
-            <li><span>Growth</span></li>
             <li><span>Contact</span></li>
             <li><span>Hire us</span></li>
+            <li><span>Mission</span></li>
           </ul>
         </nav>
         <ul class="l-main-content main-content">
@@ -50,7 +52,7 @@
             <div class="intro">
               <div class="intro--banner">
                 <h1>"WE<br>LIVE<br>ONCE"</h1>
-                <button class="cta">Hire Us
+                <button href="#hire" class="cta">Hire Us
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
                   <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
                     <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
@@ -133,7 +135,7 @@
             <div class="about">
               <div class="about--banner">
                 <h2>Give<br>your brand<br>online<br>presence</h2>
-                <a href="#0"><b style="width: 300px;">Our phylosophy is all about constant improvent and exponential growth.<br> We will help you and your business get 1% better every day</b>
+                <a class="cta"><b style="width: 300px;">We do the work and you do the planning<br>let's grow together</b>
                   <span>
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
                     <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
@@ -146,13 +148,13 @@
               </div>
               <div class="about--options">
                 <a href="#web-dev">
-                  <h3>Improve your business</h3>
+                  <h3>Scaling</h3>
                 </a>
                 <a href="#0">
-                  <h3>Improve yourself</h3>
+                  <h3>Clear message</h3>
                 </a>
                 <a href="#0">
-                  <h3>Learn more</h3>
+                  <h3>SEO</h3>
                 </a>
                 
               </div>
@@ -180,7 +182,7 @@
             </div>
           </li>
           <li class="l-section section">
-            <div class="hire">
+            <div class="hire" id="hire">
               <h2>We work, you win</h2>
               <!-- checkout formspree.io for easy form setup -->
               <form class="work-request" 

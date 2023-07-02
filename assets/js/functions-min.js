@@ -1040,14 +1040,14 @@
               n = t.parent().find(".is-active"),
               s = t.parent().children().index(n),
               r = t.parent().children().index(t),
-              o = $(this).parent().children().length - 1;
+              o = $(this).parent().children().length - 2;
             e(r), i(s, r, o);
           }
         }),
         $(".cta").click(function () {
           var t = $(".side-nav").find(".is-active"),
             n = $(".side-nav").children().index(t),
-            s = $(".side-nav").children().length - 1,
+            s = $(".side-nav").children().length - 2,
             r = s;
           e(s), i(n, r, s);
         });
@@ -1064,4 +1064,3 @@
         s(),
         r();
     });
-  
