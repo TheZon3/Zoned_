@@ -1022,7 +1022,7 @@
               clearTimeout(a),
               (a = setTimeout(function () {
                 o = !0;
-              }, 800)),
+              }, 800)), 
               t(1))
             : -50 > i &&
               o &&
